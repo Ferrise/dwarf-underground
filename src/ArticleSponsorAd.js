@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class ArticleAds extends Component {
+class ArticleSponsorAd extends Component {
     render() {
         return (
             <aside className="large-4 medium-12 columns">
@@ -20,4 +20,4 @@ class ArticleAds extends Component {
     }
 }
 
-export default ArticleAds
+export default ArticleSponsorAd

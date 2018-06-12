@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import ArticleLinks from './ArticleLinks'
 import ArticleHeader from './ArticleHeader'
 import ArticleBodyText from './ArticleBodyText'
-import ArticleAds from './ArticleAds'
+import ArticleSponsorAd from './ArticleSponsorAd'
 
 class ArticleBody extends Component {
     render() {
@@ -13,7 +13,7 @@ class ArticleBody extends Component {
               <ArticleBodyText />
               <ArticleLinks />
             </div>
-            <ArticleAds />
+            <ArticleSponsorAd />
       
             <div className="small-12 columns other-articles">
               <h2>From around the Realm</h2>
