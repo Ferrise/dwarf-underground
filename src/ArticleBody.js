@@ -8,16 +8,19 @@ import ArticleAds from './ArticleAds'
 class ArticleBody extends Component {
     render() {
         return (
-        <main className="expanded row">
-            <div className="large-8 medium-12 columns article">
-              <ArticleHeader />
-              <ArticleBodyText />
-              <ArticleLinks />
-            </div>
-            <ArticleSponsorAd />
-      
-            <ArticleAds />
-          </main>
+            <main className="expanded row">
+                <div className="large-8 medium-12 columns article">
+                    <ArticleHeader />
+                    <ArticleBodyText />
+                    <ArticleLinks />
+                </div>
+
+                <ArticleSponsorAd />
+                <div className="small-12 columns other-articles">
+                    <h2>From around the Realm</h2>
+                    <ArticleAds />
+                </div>
+            </main>
         )
     }
 }
